@@ -10,6 +10,7 @@ image_path = r"path/to/frame_{:0>4d}.png" # Edit this path
 image_frame_range = (1, 13) # End frame should be greater by 1
 
 result_path = 'result'
+os.makedirs(result_path, exist_ok = True)
 data_version = 4903 # JE 26.2
 map_id_from = 1000
 
